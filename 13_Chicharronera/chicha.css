@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px
+  }
+  body{
+    text-align: center;
+    background: pink;
+  }
+  div{
+    margin: 0 auto;
+    text-align: center;
+    width: 150px;
+    height: 80px;
+    background: violet;
+    color: black;
+  }
+  
+  div#ecu{
+    margin: 0 auto;
+    text-align: center;
+    width: 150px;
+    height: 80px;
+    background: rgb(91, 204, 238);
+    color: black;
+  } 

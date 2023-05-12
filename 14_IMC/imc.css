@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 5px;
+}
+body{
+    background: rgb(237, 148, 233);
+    text-align: center;
+}
+
+div{
+    background: rgb(237, 148, 233);
+    align-items: center;
+    
+}
+img{
+    width: 380px;
+    height: 280px;
+}
+h1{
+    font-size: 50px;
+}

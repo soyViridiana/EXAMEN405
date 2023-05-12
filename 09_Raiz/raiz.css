@@ -1,0 +1,19 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+        text-align: center;
+        background: paleturquoise;
+    }
+    div{
+        width: 200px;
+        height: 200px;
+        display: block;
+        border: 2px solid black;
+        margin: auto;
+        align-items: center;
+        background: peachpuff;
+    }

@@ -1,0 +1,13 @@
+*{
+    margin:0px;
+    padding:0px;
+  }
+  body{
+    background: palegreen;
+    text-align: center ;
+  }
+  button{
+    background: pink;
+    width :100px ;
+    height :100px ;
+  }

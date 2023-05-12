@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div#res{
+    width: 500px;
+    height: 500px;
+    background: plum;
+}
+.cajita{
+    display: inline-block;
+    background: black;
+    margin: 10px;
+}
+body{
+    text-align: center;
+    background: pink;
+}

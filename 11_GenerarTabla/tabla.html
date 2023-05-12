@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="tabla.css">
+  <title>GENERAR TABLA</title>
+</head>
+
+<body onload="generarTabla()">
+<h1>GENERAR TABLA</h1><hr>
+<table>
+  <tr>
+    <td>Filas:</td>
+    <td><input type="range" id="fil" min="1" max="100" value="1"></td>
+    <td><span id="vf">1</span></td>
+  </tr>
+
+  <tr>
+    <td>Columnas:</td>
+    <td><input type="range" id="col" min="1" max="100" value="1"></td>
+    <td><span id="vc">1</span></td>
+  </tr>
+
+  <tr>
+  <td>Color par:</td>
+  <td><input type="color" id="cp"></td>
+  <td></td>
+  </tr>
+
+  <tr>
+    <td>Color impar:</td>
+    <td><input type="color" id="ci"></td>
+    <td></td>
+  </tr>
+
+</table>
+<div id="res"></div>
+<script src="tabla.js"></script>
+
+<a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+</body>
+
+</html>

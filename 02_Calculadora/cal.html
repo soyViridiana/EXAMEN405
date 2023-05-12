@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="cal.css">
+  <title>Calculadora</title>
+</head>
+
+<body>
+<h1>Calculadora</h1><hr>
+
+  <label>Número 1</label><br>
+  <input type="number" id="n1" placeholder="Número 1:" required value="0"><br>
+  <br>
+  <label>Número 2</label><br>
+  <input type="number" id="n2" placeholder="Número 2:" required value="0"><br>
+  <br>
+  <button onclick="suma()">+</button>
+  <button onclick="resta()">-</button>
+  <button onclick="multi()">*</button>
+  <button onclick="divi()">/</button>
+  <div id="res">
+   Resultados
+  </div>
+  <br>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+    </div>
+<script src="cal.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="chicha.css">
+	<title>FORMULA GENERAL</title>
+</head>
+<body>
+	<h1>CHICHARRONERA</h1><hr>
+    <br>
+    <img src="img4.jpg" width="300px" height="150px">
+    <br>
+    <br>
+	<label for="a">a:</label>
+	<input type="range" id="a" name="a" min="-10" max="10" value="1" oninput="calcular()">
+	<span id="valor_a"></span><br>
+
+	<label for="b">b:</label>
+	<input type="range" id="b" name="b" min="-10" max="10" value="1" oninput="calcular()">
+	<span id="valor_b"></span><br>
+
+	<label for="c">c:</label>
+	<input type="range" id="c" name="c" min="-10" max="10" value="1" oninput="calcular()">
+	<span id="valor_c"></span><br>
+
+    <div id="ecu">    
+    <p><span id="ResultA"></span>x<sup>2</sup>+<span id="ResultB"></span>x + <span id="ResultC"></span> </p>
+       
+    </div>
+
+    <div>
+        <p>El resultado es: </p>
+        <span id="resultado"></span>
+    </div>
+	
+	<script src="chicha.js"></script>
+
+    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+</body>
+</html>
+ 
